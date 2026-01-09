@@ -54,6 +54,8 @@
 /* Banner Section */
 
 .hero-section {
+    width: 100%;
+    max-width: 1590px;
     height: 670px;
     background: url(./assets/hero-bg.png);
     position: relative;
@@ -98,19 +100,6 @@ h1 span {
     color: #FFFFFF;
 }
 
-
-/* .hero-button button {
-    width: 250px;
-    height: 50px;
-    gap: 16px;
-    margin-top: 30px;
-    font-size: 16px;
-    color: #FFFFFF;
-    background-color: #469165;
-    border-radius: 6px;
-    border: none;
-} */
-
 .hero-buttons {
     display: flex;
     gap: 16px;
@@ -139,4 +128,65 @@ h1 span {
 }
 
 
+/* note-section */
+
+.heading h1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.heading p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 20px;
+}
+
+.card-box {
+    display: flex;
+    margin: 0 auto;
+}
+
+.card {
+    width: 300px;
+    height: 280px;
+    box-shadow: 0 4px 40px 0 #dde0de;
+    margin-top: 100px;
+    margin-bottom: 48px;
+    margin-left: 72px;
+    border: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card img {
+    margin: top 10px;
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    width: 250px;
+    height: 25px;
+    margin-top: 2px;
+}
+
+.card p {
+    margin-top: 16px;
+    width: 270px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627282;
 }
