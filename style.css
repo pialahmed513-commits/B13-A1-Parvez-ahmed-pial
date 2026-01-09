@@ -234,3 +234,38 @@
         content: "✅";
         margin-right: 10px;
     }
+    /* Early Access Section  */
+    
+    .Early-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 1350px;
+        height: 380px;
+        background-color: #F7F6F2;
+        margin-left: 110px;
+        margin-top: 2px;
+        row-gap: 20px;
+        column-gap: 30px;
+    }
+    
+    .Early-section h1 {
+        margin-top: 80px;
+        padding: 20px;
+    }
+    
+    .Early-section p {
+        font-size: 16px;
+        color: #627382;
+    }
+    
+    .sub-text {
+        color: #627382;
+        margin-bottom: 80px;
+        margin-top: 16px;
+    }
+    
+    a .btnprimary {
+        margin-top: 24px;
+        margin-bottom: 15px;
+    }
